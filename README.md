@@ -1,5 +1,5 @@
 Alicloud OSS Terraform Module On Alibaba Cloud 
-terraform-alicloud-oss
+terraform-alicloud-oss-object
 =====================================================================
 
 Terraform module which creates OSS bucket and upload object to the bucket on Alibaba Cloud.
@@ -23,7 +23,7 @@ You can use this in your terraform template with the following steps.
     }
 
     module "oss-object" {
-        source     = "../../"
+        source     = "terraform-alicloud-modules/oss-object/alicloud"
         bucketName = "${alicloud_oss_bucket.that.bucket}"
         sourceFile = "test.txt"
         object-key = "test-1.txt"
