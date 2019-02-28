@@ -46,8 +46,8 @@ You can use this in your terraform template with the following steps.
 
 | Name | Description |
 |------|-------------|
-| oss_dest_file | the target object key |
-| oss_source_file | the source file |
+| this_dest_file | the target object key |
+| this_source_file | the source file |
 
 Authors
 -------
