@@ -17,14 +17,9 @@ You can use this in your terraform template with the following steps.
 1. Adding a module resource to your template, e.g. main.tf
 
     ```
-    resource "alicloud_oss_bucket" "that" {
-        bucket = "your_bucket_name"
-        acl    = "private"
-    }
-
     module "oss-object" {
         source     = "terraform-alicloud-modules/oss-object/alicloud"
-        bucketName = "${alicloud_oss_bucket.that.bucket}"
+        bucketName = "your-bucket-name"
         sourceFile = "test.txt"
         object-key = "test-1.txt"
     }

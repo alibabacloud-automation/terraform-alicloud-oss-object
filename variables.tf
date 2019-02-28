@@ -1,11 +1,11 @@
 variable "bucketName" {
-  default = ""
+  type = "string"
 }
 
 variable "object-key" {
-  default = ""
+  type = "string"
 }
 
 variable "sourceFile" {
-  default = ""
+  type = "string"
 }
