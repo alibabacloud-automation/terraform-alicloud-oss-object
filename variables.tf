@@ -1,11 +1,17 @@
+variable "region" {
+  description = "The region used to launch this module resources."
+  default     = ""
+}
+
 variable "bucketName" {
-  type = "string"
+  type = string
 }
 
 variable "object-key" {
-  type = "string"
+  type = string
 }
 
 variable "sourceFile" {
-  type = "string"
+  type = string
 }
+
