@@ -48,13 +48,3 @@ You can use this in your terraform template with the following steps.
 |------|-------------|
 | this_dest_file | the target object key |
 | this_source_file | the source file |
-
-Authors
--------
-Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
-
-Reference
----------
-* [Terraform-Provider-Alicloud Github](https://github.com/terraform-providers/terraform-provider-alicloud)
-* [Terraform-Provider-Alicloud Release](https://releases.hashicorp.com/terraform-provider-alicloud/)
-* [Terraform-Provider-Alicloud Docs](https://www.terraform.io/docs/providers/alicloud/index.html)
