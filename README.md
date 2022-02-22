@@ -30,6 +30,19 @@ You can use this in your terraform template with the following steps.
     - ALICLOUD_ACCESS_KEY
     - ALICLOUD_SECRET_KEY
     - ALICLOUD_REGION
+   
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.0 |
+| <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | >= 1.56.0 |
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_alicloud"></a> [alicloud](#provider\_alicloud) | >= 1.56.0 |
 
 ## Inputs
 
@@ -51,7 +64,7 @@ You can use this in your terraform template with the following steps.
 
 Authors
 -------
-Created and maintained by He Guimin(@xiaozhu36, heguimin36@163.com)
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 Reference
 ---------
