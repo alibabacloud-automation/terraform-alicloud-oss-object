@@ -48,8 +48,6 @@ You can use this in your terraform template with the following steps.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
 | bucketName | the bucket you want to create and operate | string | - | yes |
 | object-key | object key like general file name | string | - | yes |
 | sourceFile | local file name | string | - | yes |
@@ -59,8 +57,9 @@ You can use this in your terraform template with the following steps.
 
 | Name | Description |
 |------|-------------|
-| this_dest_file | the target object key |
-| this_source_file | the source file |
+| this_bucket_object_bucket | the target object bucket |
+| this_bucket_object_key | the target object key |
+| this_bucket_object_source | the target object source |
 
 Authors
 -------

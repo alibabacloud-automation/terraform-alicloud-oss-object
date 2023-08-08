@@ -1,7 +1,11 @@
-output "this_dest_file" {
-  value = element(concat(alicloud_oss_bucket_object.this.*.key, list("")), 0)
+output "this_bucket_object_bucket" {
+  value = alicloud_oss_bucket_object.this.bucket
 }
 
-output "this_source_file" {
-  value = element(concat(alicloud_oss_bucket_object.this.*.source, list("")), 0)
+output "this_bucket_object_key" {
+  value = alicloud_oss_bucket_object.this.key
+}
+
+output "this_bucket_object_source" {
+  value = alicloud_oss_bucket_object.this.source
 }
