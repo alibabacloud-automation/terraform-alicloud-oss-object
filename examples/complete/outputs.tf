@@ -1,7 +1,11 @@
-output "this_dest_file" {
-  value = module.oss_object.this_dest_file
+output "this_bucket_object_bucket" {
+  value = module.oss_object.this_bucket_object_bucket
 }
 
-output "this_source_file" {
-  value = module.oss_object.this_source_file
+output "this_bucket_object_key" {
+  value = module.oss_object.this_bucket_object_key
+}
+
+output "this_bucket_object_source" {
+  value = module.oss_object.this_bucket_object_source
 }
