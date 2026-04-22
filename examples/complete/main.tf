@@ -1,5 +1,6 @@
 module "oss_bucket" {
   source      = "terraform-alicloud-modules/oss-bucket/alicloud"
+  version     = "2.0.0"
   bucket_name = "bucket-terraform-20220222"
   acl         = var.acl
 }
